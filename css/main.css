@@ -2,7 +2,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-li {
+.navigation li {
   color: #14213D;
   display: inline-block;
   font-family: 'Abel', sans-serif;
@@ -46,4 +46,41 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
   text-align: center;
   position:relative;
 
+}
+
+.shaded {
+	background-color:#F2F3F4;
+	 box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 35px;
+  height: 300px;
+  width: 90%;
+  text-align:center;
+}
+
+.btn {
+  background-color: #14213D;
+  color: #FFF;
+  font-family: 'Raleway', cursive;
+  font-size: 35px;
+  padding: 10px;
+  background-image: -webkit-linear-gradient(#FCA311, #E74C3C);
+}
+
+.left-col {
+	text-align:center;
+	display: inline-block;
+	width:30%;
+}
+
+.right-col {
+	text-align:center;
+	display: inline-block;
+	width:30%;
+}
+
+.main {
+	text-align:center;
 }
