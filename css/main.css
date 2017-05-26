@@ -33,3 +33,17 @@ a {
   text-decoration: none;
   color: #14213D;
 }
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+  width: 40%;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+    box-sizing: border-box; 
+    resize: vertical 
+  }
+#form {
+  margin: : 120px auto;
+  text-align: center;
+  position:relative;
+
+}
